@@ -1,0 +1,20 @@
+/* simple reset to act in place of normalize.css which is rarely needed with modern web browsers */
+*,
+*::afer, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* element's padding and border are included in the width and height when using border box */
+
+/*set font size to 10 here to make our lives easier when using ems and rems
+1 rem is equal to the root font size so in this caswe 1rem is 10px */
+/* set font size to percentage of font size set by the user in the browser with 16px being the default */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
